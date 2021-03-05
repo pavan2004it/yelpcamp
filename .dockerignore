@@ -1,0 +1,6 @@
+# ignore .git and .env files alongside node_modules
+.git
+.env
+Dockerfile
+.dockerignore
+node_modules/
