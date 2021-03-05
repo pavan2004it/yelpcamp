@@ -1,0 +1,22 @@
+body{
+    background: no-repeat url("https://images.unsplash.com/photo-1467048206339-21d11f496fd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+}
+
+.resetContainer{
+    margin-top: 300px;
+    width: 400px;
+
+}
+
+
+.jumbotron.reset{
+    width: 400px;
+    margin-left: 0;
+}
+
+.footy{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+}

@@ -1,0 +1,23 @@
+<%- include ("./partials/resetHeader") %>
+
+<div class="container resetContainer">
+    <div class="jumbotron reset">
+        <form action="/reset/<%= token %>" method="post">
+            <div class="form-group">
+                <label for="password">New Password</label>
+                <input type="password" name="password" value="" placeholder="New Password" autofocus="autofocus" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="confirm">Confirm Password</label>
+                <input type="password" name="confirm"  class="form-control" value="">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Update Password</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+
+<%- include ("./partials/footer") %>

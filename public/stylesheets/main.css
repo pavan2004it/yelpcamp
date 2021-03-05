@@ -1,0 +1,74 @@
+.thumbnail img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.thumbnail{
+    padding: 0;
+}
+
+.footy{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+}
+
+.btn-primary{
+    margin-bottom: 5px;
+}
+
+.delete-form{
+    display: inline;
+}
+
+.jumbotron{
+    margin-top: 5px;
+}
+
+/*.glyphicon{*/
+/*    top:6px;*/
+/*}*/
+
+.thumbnail>img.indeximg{
+    height:200px;
+}
+
+#emailLabel{
+    margin-top: 10px;
+}
+
+#exampleInputEmail1{
+    margin-top: 10px;
+    width: 40%;
+}
+
+.ui.button:hover {
+    background-color: steelblue;
+}
+
+.form-control.new{
+    margin: 25px auto;
+    width: 18%;
+}
+
+.form-group.submitButton{
+    margin: 25px auto;
+    width: 18%;
+}
+
+div.yelpContent{
+    text-align: center;
+}
+
+.jumbotron.commentSection{
+    padding: 19px;
+}
+
+h1.yelpHeading{
+    font-size: 63px;
+}
+
+.indexContainer p:nth-child(2){
+    font-size: 21px;
+    font-weight: normal;
+}
