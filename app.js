@@ -29,8 +29,8 @@ mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 mongoose.set('useNewUrlParser', true);
 
+// Database Config
 let url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v10"
-// mongoose.connect("mongodb://localhost/yelp_camp_v10");
 mongoose.connect(url,{ useNewUrlParser: true });
 
 
