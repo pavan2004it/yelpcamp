@@ -30,7 +30,6 @@ mongoose.set('useUnifiedTopology', true);
 mongoose.set('useNewUrlParser', true);
 
 let url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v10"
-// mongoose.connect("mongodb://localhost/yelp_camp_v10");
 mongoose.connect(url,{ useNewUrlParser: true });
 
 
